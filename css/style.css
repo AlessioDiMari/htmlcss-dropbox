@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: aqua;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.container-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .container-nav > *{
+    border: 1px dashed black;
+    padding: 12px;
+}
+
+.link-nav{
+    display: flex;
+}
+
+.link-nav > *{
+    border: 1px dashed black;
+}
+
+.link-nav.sx{
+    gap: 20px;
+}
+
+.link-nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+.link-nav img{
+    display: block;
+}
