@@ -2,16 +2,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
 /* Top Navbar */
 nav{
-    background-color: aqua;
+    background-color: white;
     position: fixed;
     top: 0;
     width: 100%;
+    padding: 12px;
 }
 .container-nav{
     display: flex;
@@ -19,19 +20,24 @@ nav{
 }
 
 nav .container-nav > *{
-    border: 1px dashed black;
-    padding: 12px;
+    /* border: 1px dashed black; */
+    /* padding: 12px; */
 }
 
 .link-nav{
     display: flex;
+    padding: 12px;
 }
 
 .link-nav > *{
-    border: 1px dashed black;
+    /* border: 1px dashed black; */
 }
 
 .link-nav.sx{
+    gap: 20px;
+}
+
+.link-nav.dx{
     gap: 20px;
 }
 
@@ -44,14 +50,28 @@ nav .container-nav > *{
 .link-nav img{
     display: block;
 }
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.bottone{
+    background-color: #0061FF;
+    padding: 10px 16px;
+    text-align: center;
+    color: white;
+}
+
+
 /* Fine top navbar */
 
 
 /* Header */
 
 header{
-    background-color: rgb(201, 219, 46);
-    margin-top: 64px;
+    background-color: #B4D0E7;
+    margin-top: 50px;
     margin-bottom: 100px;
 }
 
@@ -67,9 +87,9 @@ header .container-head > *{
 }
 
 .container-head h1{
-    height: 35%;
-    font-size: 70px;
-    padding: 48px;
+    font-size: 5em;
+    font-weight: bold;
+    padding: 48px 22px;
 }
 
 .container-inside{
@@ -82,11 +102,119 @@ header .container-head > *{
 }
 
 .container-inside .prova{
-    flex-grow: 1;
+    max-width: 35%;
+    padding: 22px;
 }
 
 .container-inside .immagine{
-    flex-grow: 2;
+    max-width: 65%;
+}
+
+.container-inside .immagine img{
+    width: 100%;
+    height: auto;
 }
 
 /* Fine Header */
+
+
+/* Main */
+
+main{
+    /* background-color: coral; */
+}
+
+main .container-main > * {
+    /* border: 1px dashed black; */
+}
+
+.prima h2{
+    padding: 48px 0;
+    font-size: 2.5em;
+}
+
+.prima .checkbox{
+    display: flex;
+    gap: 64px;
+    padding-bottom: 48px;
+}
+
+
+.container-main{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.prima .piani{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;    
+}
+
+.piani .piano{
+    width: 30%;
+    /* height: 500px; */
+    border: 3pX solid #EBEBEC;
+}
+
+.piani .piano .piano-head{
+    padding: 8px;
+    border-bottom: 3px solid #EBEBEC;
+    text-align: center;
+}
+
+.piani .piano .piano-main{
+    padding: 36px 30px;
+}
+
+.piano-main h3{
+    font-size: 2em;
+    padding-bottom: 20px;
+}
+
+.piano-main strong{
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: 12px;
+}
+
+.piano-main .cadenza{
+    color: grey;
+    margin-bottom: 52px;
+}
+
+.piano-main .feature{
+    display: flex;
+    gap: 5px;
+    padding-bottom: 20px;
+}
+
+.piano-main .bottone{
+    margin-top: 32px;
+}
+
+.bottone a{
+    color: white;
+}
+
+.piano-main .acquisto{
+    padding-top: 38px;
+}
+
+.piano-main .acquisto a{
+    color: #575cee;
+    text-decoration: underline;
+}
+
+.piano-main hr{
+    color: grey;
+    margin: 40px 0;
+    width: 20%;
+}
+
+
+
+
+
+/* Fine Main */
