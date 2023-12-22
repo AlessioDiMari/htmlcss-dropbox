@@ -233,7 +233,7 @@ main .container-main .prima-sec{
 /* seconda sezione del main */
 .seconda-sec{
     margin: 24px  0;
-    border: 3pX solid #EBEBEC;
+    border: 3px solid #EBEBEC;
 }
 
 .seconda-sec .seoconda-sec-head{
@@ -418,7 +418,7 @@ main .container-main .prima-sec{
 }
 
 .section-aziende .azienda-cap{
-    background-color: F5F5F5;
+    background-color: #F5F5F5;
     padding: 48px;
 }
 
@@ -436,3 +436,56 @@ main .container-main .prima-sec{
     margin-bottom: 50px;
 }
 /* fine section-aziende */
+
+
+/* sezione business-azienda */
+.business-azienda{
+    background-color: #B4D0E7;
+}
+
+.business-azienda .container-main{
+    display: flex;
+    justify-content: space-between;
+    padding: 140px 0;
+}
+
+.business-azienda h2{
+    width: 50%;
+    font-size: 2.5em;
+    color: #61082B;
+}
+
+.business-azienda .bottone3{
+    background-color: white;
+    padding: 10px 16px;
+    text-align: center;
+    color: black;
+}
+
+.business-azienda .container-main .partner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* fine sezione business azienda */
+
+
+/* sezione domande frequenti */
+.domande .container-main{
+    padding: 150px 0;
+}
+
+.domande h2{
+    font-size: 2.5em;
+    margin-bottom: 60px;
+}
+
+.domande .container-main .domanda{
+    display: flex;
+    justify-content: space-between;
+    padding: 42px 0;
+    border-top: 2px solid #EBEBEC;
+    border-bottom: 2px solid #EBEBEC;
+}
+
+
