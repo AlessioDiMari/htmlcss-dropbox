@@ -131,6 +131,13 @@ main .container-main > * {
     /* test */
 }
 
+
+/* prima sezione */
+
+.prima-sec{
+    margin-bottom: 24px;
+}
+
 .prima-sec h2{
     padding: 48px 0;
     font-size: 2.5em;
@@ -220,9 +227,45 @@ main .container-main > * {
     gap: 5px;
     padding-bottom: 20px;
 }
+/* fine prima sezione */
+
+/* seconda sezione */
+
+.seconda-sec{
+    margin: 24px  0;
+    border: 3pX solid #EBEBEC;
+}
+
+.seconda-sec .seoconda-sec-head{
+    padding: 8px;
+    border-bottom: 3px solid #EBEBEC;
+    text-align: center;
+}
+
+.seconda-sec .seconda-sec-main{
+    padding: 0 38px 30px;
+}
+
+.seconda-sec-main .sec-top{
+    display: flex;
+    justify-content: space-between;
+    padding: 36px 0 18px;
+}
+
+.sec-top h3{
+    font-size: 2em;
+}
+
+.sec-top strong{
+    font-size: 1.2em;
+}
+
+.seconda-sec-main .sec-mid{
+    padding-bottom: 52px;
+}
+/* fine seconda sezione */
 
 
 
 
-
-/* Fine Main */
+/* Fine main */
