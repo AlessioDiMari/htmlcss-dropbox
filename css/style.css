@@ -265,6 +265,43 @@ main .container-main > * {
 }
 /* fine seconda sezione */
 
+/* terza sezione */
+
+.container-main .terza-sec{
+    display: flex;
+    margin-top: 125px;
+}
+
+.terza-sec .colonna-big{
+    width: 60%;
+}
+
+.colonna-big img{
+    width: 100%;
+}
+
+.terza-sec .colonna-sml{
+    width: 40%;
+    padding: 60px 50px;
+}
+
+.colonna-sml h3{
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.colonna-sml p{
+    margin-bottom: 42px;
+}
+
+.colonna-sml .bottone2{
+    background-color: white;
+    padding: 10px 16px;
+    text-align: center;
+    color: black;
+    border: 2px solid black;
+}
+
 
 
 
