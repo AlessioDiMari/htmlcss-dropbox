@@ -21,7 +21,7 @@ nav{
 
 nav .container-nav > *{
     /* border: 1px dashed black; */
-    /* padding: 12px; */
+    /* test */
 }
 
 .link-nav{
@@ -31,6 +31,7 @@ nav .container-nav > *{
 
 .link-nav > *{
     /* border: 1px dashed black; */
+    /* test */
 }
 
 .link-nav.sx{
@@ -122,18 +123,20 @@ header .container-head > *{
 
 main{
     /* background-color: coral; */
+    /* test */
 }
 
 main .container-main > * {
     /* border: 1px dashed black; */
+    /* test */
 }
 
-.prima h2{
+.prima-sec h2{
     padding: 48px 0;
     font-size: 2.5em;
 }
 
-.prima .checkbox{
+.prima-sec .checkbox{
     display: flex;
     gap: 64px;
     padding-bottom: 48px;
@@ -146,7 +149,7 @@ main .container-main > * {
     margin-right: auto;
 }
 
-.prima .piani{
+.prima-sec .piani{
     display: flex;
     justify-content: space-between;
     width: 100%;    
@@ -154,7 +157,6 @@ main .container-main > * {
 
 .piani .piano{
     width: 30%;
-    /* height: 500px; */
     border: 3pX solid #EBEBEC;
 }
 
@@ -165,7 +167,7 @@ main .container-main > * {
 }
 
 .piani .piano .piano-main{
-    padding: 36px 30px;
+    padding: 36px 28px;
 }
 
 .piano-main h3{
@@ -211,6 +213,12 @@ main .container-main > * {
     color: grey;
     margin: 40px 0;
     width: 20%;
+}
+
+.piano-main .vantaggio{
+    display: flex;
+    gap: 5px;
+    padding-bottom: 20px;
 }
 
 
