@@ -132,8 +132,8 @@ main .container-main > * {
 }
 
 
-/* prima sezione */
 
+/* prima sezione */
 .prima-sec{
     margin-bottom: 24px;
 }
@@ -229,8 +229,8 @@ main .container-main > * {
 }
 /* fine prima sezione */
 
-/* seconda sezione */
 
+/* seconda sezione */
 .seconda-sec{
     margin: 24px  0;
     border: 3pX solid #EBEBEC;
@@ -265,11 +265,11 @@ main .container-main > * {
 }
 /* fine seconda sezione */
 
-/* terza sezione */
 
+/* terza sezione */
 .container-main .terza-sec{
     display: flex;
-    margin-top: 125px;
+    margin: 125px 0px 150px;
 }
 
 .terza-sec .colonna-big{
@@ -300,6 +300,45 @@ main .container-main > * {
     text-align: center;
     color: black;
     border: 2px solid black;
+}
+/* fine terza sezione */
+
+
+/* quarta sexione */
+.container-main .quarta-sec{
+
+}
+
+.quarta-sec h2{
+    font-size: 2.5em;
+    margin-bottom: 32px;
+}
+
+.quarta-sec .container-operazioni{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-operazioni .operazioni{
+    width: calc(100% / 3);
+    padding: 25px;
+}
+
+.container-operazioni .operazioni:nth-of-type(3n + 1){
+    padding-left: 0;
+}
+
+.container-operazioni .operazioni:nth-of-type(3n){
+    padding-right: 0;
+}
+
+.operazioni .oprz-img img{
+    width: 100%;
+}
+
+.operazioni .oprz-nome h3{
+    font-size: 1.5em;
+    margin-bottom: 34px;
 }
 
 
