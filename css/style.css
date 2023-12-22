@@ -7,7 +7,7 @@
 
 
 /* Top Navbar */
-nav{
+.top{
     background-color: white;
     position: fixed;
     top: 0;
@@ -76,18 +76,19 @@ header{
     margin-bottom: 100px;
 }
 
-header .container-head > *{
+header .container-big > *{
     border: 1px dashed black;
+    /* text */
 }
 
-.container-head{
+.container-big{
     max-width: 1200px;
     height: 740px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.container-head h1{
+.container-big h1{
     font-size: 5em;
     font-weight: bold;
     padding: 48px 22px;
@@ -99,10 +100,14 @@ header .container-head > *{
 }
 
 .container-inside > *{
-    border: 1px dashed black;
+    /* border: 1px dashed black; */
+    /* test */
 }
 
 .container-inside .prova{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     max-width: 35%;
     padding: 22px;
 }
@@ -112,8 +117,12 @@ header .container-head > *{
 }
 
 .container-inside .immagine img{
-    width: 100%;
+    width: 110%;
     height: auto;
+}
+
+.prova i{
+    font-size: 2.5em;
 }
 
 /* Fine Header */
@@ -487,5 +496,55 @@ main .container-main .prima-sec{
     border-top: 2px solid #EBEBEC;
     border-bottom: 2px solid #EBEBEC;
 }
+/* fine domanfe frequenti */
 
 
+/* bottom navbar */
+.bottom{
+    background-color: black;
+    color: white;
+}
+
+.bottom .container-big2{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-link{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-link .link{
+    width: calc(100% / 5 - 100 * 4);
+    padding: 116px 0;
+}
+
+.container-link .link h3{
+    font-size: 2em;
+    padding-bottom: 32px;
+}
+
+.container-link .link ul{
+    list-style: none;
+    text-decoration: none;
+}
+.link ul li{
+    padding-bottom: 16px;
+}
+.link ul a{
+    color: white;
+}
+
+.container-big2 hr{
+    color: white;
+    width: 10%;
+}
+
+.container-big2 .lingua{
+    display: flex;
+    gap: 10px;
+    padding: 50px 0;
+}
+/* fine bottom navbar */
