@@ -133,8 +133,8 @@ main .container-main > * {
 
 
 
-/* prima sezione */
-.prima-sec{
+/* prima sezione  del main */
+main .container-main .prima-sec{
     margin-bottom: 24px;
 }
 
@@ -227,10 +227,10 @@ main .container-main > * {
     gap: 5px;
     padding-bottom: 20px;
 }
-/* fine prima sezione */
+/* fine prima sezione del main */
 
 
-/* seconda sezione */
+/* seconda sezione del main */
 .seconda-sec{
     margin: 24px  0;
     border: 3pX solid #EBEBEC;
@@ -263,10 +263,10 @@ main .container-main > * {
 .seconda-sec-main .sec-mid{
     padding-bottom: 52px;
 }
-/* fine seconda sezione */
+/* fine seconda sezione del main */
 
 
-/* terza sezione */
+/* terza sezione del main */
 .container-main .terza-sec{
     display: flex;
     margin: 125px 0px 150px;
@@ -301,10 +301,10 @@ main .container-main > * {
     color: black;
     border: 2px solid black;
 }
-/* fine terza sezione */
+/* fine terza sezione del main */
 
 
-/* quarta sexione */
+/* quarta sexione del main */
 .container-main .quarta-sec{
 
 }
@@ -340,8 +340,99 @@ main .container-main > * {
     font-size: 1.5em;
     margin-bottom: 34px;
 }
+/* fine quarta sezione del main */
 
 
+/* quinta sezione del main */
+.container-main .quinta-sec{
+    margin-top: 190px;
+}
+
+.quinta-sec h2{
+    font-size: 2.5em;
+    margin-bottom: 64px;
+}
+
+.quinta-sec a{
+    color: #575cee;
+    text-decoration: underline;
+}
+/* fine quinta section del main */
 
 
-/* Fine main */
+/* fine main */
+
+/* main-section */
+.section-aziende{
+    display: flex;
+    margin-top: 150px;
+}
+
+.section-aziende > div{
+    width: calc(100% / 3);
+    aspect-ratio: 1/1;
+}
+
+.section-aziende .loghi-aziende{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.loghi-aziende .azienda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% / 2);
+    aspect-ratio: 1/1;
+    padding: 70px;
+}
+
+.azienda img{
+    filter: invert(1);
+    width: 100%;
+}
+
+#azienda1{
+    background-color: #A2D39B;
+}
+#azienda2{
+    background-color: #61082B;
+}
+#azienda3{
+    background-color: #0093CE;
+}
+#azienda4{
+    background-color: #FF1C1C;
+}
+#azienda5{
+    background-color: #D5001F;
+}
+#azienda6{
+    background-color: #B4D0E7;
+}
+#azienda7{
+    background-color: #0D2481;
+}
+#azienda8{
+    background-color: #FFD830;
+}
+
+.section-aziende .azienda-cap{
+    background-color: F5F5F5;
+    padding: 48px;
+}
+
+.azienda-cap img{
+    width: 50%;
+}
+
+.azienda-cap hr{
+    color: grey;
+    width: 25%;
+    margin: 42px 0;
+}
+
+.azienda-cap p{
+    margin-bottom: 50px;
+}
+/* fine section-aziende */
